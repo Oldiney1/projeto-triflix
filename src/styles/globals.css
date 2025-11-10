@@ -1,0 +1,34 @@
+:root{
+    --primary-color: #B64502;
+    --secondary-color: #8C3400;
+    --tertiary-color: #C2B9B9;
+    --fourth-color: #D9D9D9;
+    --fifith-color: #F4DDB0;
+}
+
+body{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+}
+
+input{
+    font-family: "Poppins";
+}
+
+.botao{
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    a{
+        text-decoration: none;
+        color: var(--fourth-color);
+    }
+}
