@@ -1,11 +1,11 @@
 import Navbar from "@/components/navbar";
 
-export default function Genres(){
+export default function Suggestions(){
     return(
         <div>
             <Navbar></Navbar>
 
-            Genre Works!
+            Suggestions Works!
         </div>
     );
 }

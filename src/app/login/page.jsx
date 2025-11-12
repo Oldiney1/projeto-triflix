@@ -30,7 +30,7 @@ export default function Login(){
                     <a href="/register">Cadastre-se</a>
                 </div>
 
-                <Botao link="/">Entrar</Botao>
+                <Botao link="/home">Entrar</Botao>
 
                 <div className={styles.links}>
                     <p>Esqueceu a senha?</p>
