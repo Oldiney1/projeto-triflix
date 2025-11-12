@@ -34,7 +34,7 @@ export default function Login(){
 
                 <div className={styles.links}>
                     <p>Esqueceu a senha?</p>
-                    <a href="/register">Recuperar</a>
+                    <a href="/recoverPass">Recuperar</a>
                 </div>
             </div> 
 
