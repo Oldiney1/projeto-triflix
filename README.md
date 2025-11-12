@@ -7,10 +7,16 @@ Por meio deste projeto, os estudantes têm a oportunidade de aplicar na prática
 
 Foram seguidas as referências desenvolvidas no [Figma](https://www.figma.com/design/mwZa1XHh9u0NYbhk3HImkn/Projeto---grupo-1?node-id=65-3&t=B73QbvKC5PCn9at8-1).
 
-<div align="center"><img src="./public/projeto.png"></img></div>
+<div align="center"><img src="public/projeto.png"></img></div>
 
 
 ## Como rodar localmente
+
+Primeiro clone o projeto colocando no terminal a seguinte linha:
+
+```bash
+git clone https://github.com/Oldiney1/projeto-triflix.git
+```
 
 Primeiro instale as dependências do Node.js na raiz do projeto:
 
