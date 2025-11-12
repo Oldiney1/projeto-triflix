@@ -1,0 +1,26 @@
+.telaInicial{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+
+    .containerLogo{
+        background-color: var(--fourth-color);
+        height: 500px;
+        width: 400px;
+    }
+
+    .containerTexto{
+        background-color: var(--fourth-color);
+        height: 500px;
+        width: 800px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        
+        .conteudo{
+            margin: 40px;
+        }
+        
+    }
+}
