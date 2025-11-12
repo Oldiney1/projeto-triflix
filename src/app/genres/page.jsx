@@ -1,11 +1,20 @@
 import Navbar from "@/components/navbar";
+import styles from "./page.module.css"
 
 export default function Genres(){
     return(
-        <div>
+        <div className={styles.container}>
             <Navbar></Navbar>
 
-            Genre Works!
+            <div className={styles.items}>
+                <select className={styles.select}>
+                    <option hidden selected> Gêneros</option>
+                    <option value="">Ação</option>
+                    <option value="">Comédia</option>
+                    <option value="">Drama</option>
+                    <option value="">Terror</option>
+                </select>
+            </div>
         </div>
     );
 }

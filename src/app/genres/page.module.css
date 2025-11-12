@@ -1,0 +1,27 @@
+.container{
+    background-color: var(--fourth-color);
+    width: 100vw;
+    height: 100vh;
+
+    .items{
+        margin: 40px;
+    }
+
+    .select {
+      width: 200px;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: var(--primary-color);
+      color: var(--fourth-color);
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+    .select:focus {
+      outline: none;
+      border-color: var(--fourth-color);
+    }
+}

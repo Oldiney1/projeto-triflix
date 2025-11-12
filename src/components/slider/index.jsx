@@ -1,5 +1,8 @@
+import styles from "./component.module.css"
+
+
 export default function Slider(){
     return(
-        <div>Slider Works!! </div>
+        <div className={styles.container}>Slider Works!! </div>
     );
 }
