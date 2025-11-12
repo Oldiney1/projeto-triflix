@@ -18,7 +18,7 @@ Primeiro clone o projeto colocando no terminal a seguinte linha:
 git clone https://github.com/Oldiney1/projeto-triflix.git
 ```
 
-Primeiro instale as dependências do Node.js na raiz do projeto:
+Depois instale as dependências do Node.js na raiz do projeto:
 
 ```bash
 npm install
