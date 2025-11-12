@@ -2,7 +2,7 @@ import styles from "./page.module.css"
 import Image from "next/image";
 import Botao from "@/components/botao";
 
-export default function Login(){
+export default function Register(){
     return(
 
     <div className={styles.principal}>
@@ -16,8 +16,8 @@ export default function Login(){
         <div className={styles.container}>
             <div className={styles.items}>
                 <div className={styles.input}>
-                    <label htmlFor="text">Login</label>
-                    <input type="text" placeholder="Digite seu login" />
+                    <label htmlFor="text">E-mail</label>
+                    <input type="text" placeholder="insira seu e-mail" />
                 </div>
             
                 <div className={styles.input}>
@@ -25,16 +25,21 @@ export default function Login(){
                     <input type="password" placeholder="Digite sua senha" />
                 </div>
 
-                <div className={styles.links}>
-                    <p>Não Possui conta?</p>
-                    <a href="/register">Cadastre-se</a>
+                <div className={styles.input}>
+                    <label htmlFor="text">Confirmar Senha</label>
+                    <input type="password" placeholder="Confirme sua senha" />
                 </div>
 
-                <Botao link="/">Entrar</Botao>
+                <div className={styles.links}>
+                    <p>Possui conta?</p>
+                    <a href="/">Entrar</a>
+                </div>
+
+                <Botao link="/">Cadastrar</Botao>
 
                 <div className={styles.links}>
                     <p>Esqueceu a senha?</p>
-                    <a href="/register">Recuperar</a>
+                    <a href="/recoverPass">Recuperar</a>
                 </div>
             </div> 
 
