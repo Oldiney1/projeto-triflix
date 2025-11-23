@@ -15,6 +15,24 @@ export default function Genres(){
                     <option value="">Terror</option>
                 </select>
             </div>
+
+            <div className={styles.movieContainer}>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+            </div>
+
+            <div className={styles.movieContainer}>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+                <div className={styles.movieBox}></div>
+            </div>
+
+            
         </div>
     );
 }
