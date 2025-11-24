@@ -12,7 +12,9 @@ Foram seguidas as referências desenvolvidas no [Figma](https://www.figma.com/de
 
 ## Como rodar localmente
 
-Primeiro clone o projeto colocando no terminal a seguinte linha:
+Primeiro é necessário criar um arquivo .env na raiz do projeto com TMDB_KEY="sua chave", uma chave de acesso da api do [The Movie Database](https://www.themoviedb.org/).
+
+Em seguida clone o projeto colocando no terminal a seguinte linha:
 
 ```bash
 git clone https://github.com/Oldiney1/projeto-triflix.git
